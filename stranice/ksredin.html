@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Sredina</title>
+    <link rel="stylesheet" href="../dekorisanje.css">
+</head>
+
+<body>
+    <header>
+        <h1>Linearna regresija</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">LINEARNA REGRESIJA</a>
+            </li>
+            <li>
+                <a href="logička.html">LOGIČKA REGRESIJA</a>
+            </li>
+            <li>
+                <a href="autor.html">AUTOR</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <p>Algoritam k sredina pronalazi k klastera u podacima koje predstavlja pomoću k centroida tih klastera, od kojih se svaka dobija uprosečavanjem elemenata datog klastera. Ova pretpostavka čini algoritam primenljivim samo na
+            podatke koji se mogu uprosečavati, poput vektora. Pod odredenim uslovima,
+            postoje uopštenja algoritma i na drugačije vrste podataka, ali o njima neće biti
+            reči. Polaznih k centroida se bira nasumično (mada, ako korisnik zna nešto o
+            strukturi svojih podataka, mogu biti i unapred date), a potom se ponavljaju
+            sledeči koraci:
+            <ul>
+                <ol>
+                   <li>
+                    rasporediti sve instance u nove klastere tako što se svaka instanca pridruži
+najbližoj centroidi
+
+                   </li>
+                   <li>
+                    izračunati nove centroide kao prosek instanci koje su im pridružene.
+                   </li>
+                </ol>
+            </ul>
+        </p>
+        <p>
+            Ovi koraci se izvršavaju sve dok se centroide menjaju. Kada su centroide iste
+u dve uzastopne iteracije, algoritam se zaustavlja.
+        </p>
+
+        <div class="imgBox">
+            <img src="../slike/yuh.PNG">
+        </div>
+
+        <p>
+            Primer klastera koje pronalazi ovaj algoritam, dat je na slici.
+        </p>
+    </section>
+    <footer>
+        <p class="footer-autor">Autor: Zdravko Panin - Odeljenje: 3-3</p>
+        <a href="mailto:zdravko.panin2019@gimnazijabp.edu.rs"
+            class="footer-mail">zdravko.panin2019@gimnazijabp.edu.rs</a>
+    </footer>
+
+</body>
+
+</html>
